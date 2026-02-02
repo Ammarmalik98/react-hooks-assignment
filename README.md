@@ -1,6 +1,6 @@
 # React Hooks App
 
-![React Hooks App Screenshot](src/assests/Screenshot.png)
+![React Hooks App Screenshot](./Screenshot.png)
 
 A simple React application built to demonstrate core **React Hooks** concepts through small, focused components.  
 Clean UI. Clear logic. No unnecessary magic.
