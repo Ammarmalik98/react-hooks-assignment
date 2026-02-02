@@ -1,16 +1,68 @@
-# React + Vite
+# React Hooks App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React Hooks App Screenshot](./src/assests/Screenshot.png)
 
-Currently, two official plugins are available:
+A simple React application built to demonstrate core **React Hooks** concepts through small, focused components.  
+Clean UI. Clear logic. No unnecessary magic.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This app showcases three independent components, each highlighting a different React Hook use case:
 
-## Expanding the ESLint configuration
+### 🔢 Counter
+- Uses `useState`
+- Increment, decrement, and reset functionality
+- Demonstrates basic state updates
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ Todo List
+- Uses `useState`
+- Add tasks dynamically
+- Conditional rendering for empty state
+
+### 👤 User Data Fetcher
+- Uses `useState` and `useEffect`
+- Fetches user data from an external API
+- Displays loading state with a spinner
+- Graceful handling of async data
+
+---
+
+## 🧠 Hooks Used
+
+- `useState` — for managing component state
+- `useEffect` — for handling side effects (API calls)
+
+---
+
+## 🌐 API Used
+
+- [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+  - Endpoint: `/users/:id`
+  - Used for demo user data fetching
+
+---
+
+## 🛠️ Built With
+
+- React
+- JavaScript (ES6+)
+- CSS (custom styling)
+- JSONPlaceholder API
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have the following installed:
+- Node.js
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/react-hooks-app.git
+cd react-hooks-app
+npm install
