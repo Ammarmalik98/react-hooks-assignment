@@ -1,0 +1,75 @@
+.icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.counter-card {
+    border-radius: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #686868 0%, #1d1d1d 100%);
+}
+
+.counter-card:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 6px 1px var(--primary);
+}
+
+.counter-card h2 {
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 2rem;
+}
+
+.count-display {
+    font-size: 5rem;
+    font-weight: 800;
+    margin: 2rem 0;
+    color: var(--primary);
+    text-shadow: 2px 2px 0px rgba(99, 102, 241, 0.1);
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-decrement {
+    background-color: transparent;
+    border: 2px solid var(--text-secondary);
+    color: var(--text-secondary);
+}
+
+.btn-decrement:hover {
+    border-color: var(--text-primary);
+    color: var(--text-primary);
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn-reset {
+    background-color: #fee2e2;
+    color: var(--danger);
+}
+
+.btn-reset:hover {
+    background-color: #fecaca;
+    color: var(--danger-hover);
+}
+
+.btn-increment {
+    background-color: var(--primary);
+    color: white;
+    box-shadow: 0 4px 6px -1px rgba(99, 102, 241, 0.4);
+}
+
+.btn-increment:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px -1px rgba(99, 102, 241, 0.5);
+}
